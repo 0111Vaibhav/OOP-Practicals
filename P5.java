@@ -2,7 +2,7 @@ import java.util.*;
 
 public class P5 {
 
-    public static void main(String argss[]){
+    public static void main(String[] args){
 
         int a,b,c,max=0,mid=0,min=0;
         System.out.println("Enter Numbers :");

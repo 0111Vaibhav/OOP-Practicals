@@ -2,7 +2,7 @@ import java.util.*;
 
 public class P6 {
 
-    public static void main(String args[]) {
+    public static void main(String []args) {
 
         char a;
         System.out.println("Enter a Letter : ");
