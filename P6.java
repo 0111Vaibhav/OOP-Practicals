@@ -2,6 +2,7 @@ import java.util.*;
 
 public class P6 {
 
+    @SuppressWarnings("resource")
     public static void main(String []args) {
 
         char a;

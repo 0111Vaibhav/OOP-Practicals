@@ -2,6 +2,10 @@ import java.util.*;
 
 public class P5 {
 
+    /**
+     * @param args
+     */
+    @SuppressWarnings("resource")
     public static void main(String[] args){
 
         int a,b,c,max=0,mid=0,min=0;

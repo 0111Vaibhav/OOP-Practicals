@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class P8 {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int div = 2;
         Scanner inpt = new Scanner(System.in);

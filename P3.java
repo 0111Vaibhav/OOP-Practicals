@@ -2,6 +2,7 @@ import java.util.*;
 
 public class P3 {
 
+    @SuppressWarnings("resource")
     public static void main(String args[]) {
         int mv;
         double fv;

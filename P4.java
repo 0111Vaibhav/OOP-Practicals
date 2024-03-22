@@ -2,6 +2,7 @@ import java.util.*;
 
 public class P4 {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int WeightInPounds, HeightInInches;
         double WeightInKg, HeightInMeters, BMI;
