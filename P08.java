@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class P08 {
+ 
     @SuppressWarnings("resource")
     public static void main(String[] args) {
         int div = 2;
