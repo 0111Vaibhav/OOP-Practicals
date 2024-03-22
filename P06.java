@@ -1,7 +1,8 @@
 import java.util.*;
 
-public class P6 {
+public class P06 {
 
+    @SuppressWarnings("resource")
     public static void main(String []args) {
 
         char a;

@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
-public class P9 {
+public class P09 {
 
+    /**
+     * @param n1
+     * @param n2
+     * @return
+     */
     public static int gcd(int n1, int n2) {
 
         int min = Math.min(n1, n2);
@@ -16,6 +21,7 @@ public class P9 {
 
     }
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int a, b;
         System.out.println("Enter two numbers : ");

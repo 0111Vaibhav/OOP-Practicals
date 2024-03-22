@@ -1,4 +1,4 @@
-public class P2 {
+public class P02 {
 
     public static void main(String args[]) {
         double a = 3.4, b = 50.2, c = 2.1, d = 0.55, e = 4.45, f = 5.9, x, y;

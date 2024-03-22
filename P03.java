@@ -1,7 +1,8 @@
 import java.util.*;
 
-public class P3 {
+public class P03 {
 
+    @SuppressWarnings("resource")
     public static void main(String args[]) {
         int mv;
         double fv;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class P7 {
+public class P07 {
     public static void main(String[] args) {
         Random r = new Random();
         char ch1 = (char) ('A' + r.nextInt(26));
