@@ -4,6 +4,7 @@ public class P08 {
  
     @SuppressWarnings("resource")
     public static void main(String[] args) {
+        
         int div = 2;
         Scanner inpt = new Scanner(System.in);
         System.out.println("Enter an Integer");
@@ -15,6 +16,7 @@ public class P08 {
             } else {
                 div++;
             }
+        
         }
     }
 }
