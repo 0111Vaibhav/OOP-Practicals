@@ -2,10 +2,7 @@ import java.util.*;
 
 public class P10 {
 
-    /**
-     * @param args
-     * @param i
-     */
+    
     @SuppressWarnings("resource")
     public static void main(String[] args) {
         int a[] = new int[10];
