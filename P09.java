@@ -25,10 +25,9 @@ public class P09 {
     public static void main(String[] args) {
         int a, b;
         System.out.println("Enter two numbers : ");
-        Scanner as = new Scanner(System.in);
-        a = as.nextInt();
-        Scanner bs = new Scanner(System.in);
-        b = bs.nextInt();
+        Scanner s = new Scanner(System.in);
+        a = s.nextInt();
+        b = s.nextInt();
         System.out.println(gcd(a, b));
 
     }
