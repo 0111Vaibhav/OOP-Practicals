@@ -10,12 +10,10 @@ public class P05 {
 
         int a,b,c,max=0,mid=0,min=0;
         System.out.println("Enter Numbers :");
-        Scanner as = new Scanner(System.in);
-        a = as.nextInt();
-        Scanner bs = new Scanner(System.in);
-        b = bs.nextInt();
-        Scanner cs = new Scanner(System.in);
-        c = cs.nextInt();
+        Scanner s = new Scanner(System.in);
+        b = s.nextInt();
+        a = s.nextInt();
+        c = s.nextInt();
         if (a>b &&a>c) {
             max=a;
             if(b>c){
