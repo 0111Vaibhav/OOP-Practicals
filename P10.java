@@ -1,21 +1,23 @@
+
 import java.util.*;
 
 public class P10 {
 
-    
     @SuppressWarnings("resource")
-    public static void main(String[] args) {
-        int a[] = new int[10];
-        for (int i = 0; i < 10; i++) {
-            Scanner sc = new Scanner(System.in);
-            a[i] = sc.nextInt();
+    public static void reverse(int[] x) {
+        int t;
+        for (int i = 0, j = x.length - 1; i < x.length / 2; i++, j--) {
+            t=x[i];
+            
         }
-        for (int j = 9; j >= 0; j--) {
-
-            System.out.print(a[j] + " ");
-
-        }
-
     }
 
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int[] a = new int[10];
+        for (int i = 0; i < 10; i++) {
+            a[i] = s.nextInt();
+        }
+        reverse(a);
+    }
 }
